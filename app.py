@@ -27,15 +27,9 @@ def main():
                     valor=valor,
                     quantidade=quantidade,
                     produto=produto
-                )
-
-            st.write("**Pedido Realizado:**")
-            
+                )       
             st.write(venda)
             salvar_no_postgres(venda)
-            
-            st.write(f"Email do Vendedor: {email}")
-            st.write(f"Data e Hora da Compra: {data_hora}")
 
         except ValidationError as e:
             st.error(f"Erro na validação dos dados: {e}")
