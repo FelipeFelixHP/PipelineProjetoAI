@@ -12,7 +12,7 @@ class Vendas(BaseModel):
         Modelo de dados para as vendas.
 
         Args:
-            email (EmailStr, verifica se é um email valido): email do comprador
+            email (EmailStr, verifica se é um email valido, pra fazer essa verificação no db teria que ser feito um stored procedure): email do comprador
             data (datetime): data da compra
             valor (PositiveFloat): valor da compra
             produto (PositiveInt, para garantir que a pessoa não digite exemplo -50 no 
