@@ -11,4 +11,4 @@ Nesse projeto vamos ultilizar o Pydantic que oferece várias vantagens:
 4: Serialização/Deserialização: Converte dados entre formatos como JSON e Python de forma automática.
 
 5: Integração com FastAPI: Utilizado diretamente em frameworks modernos, como FastAPI, para validação de dados em APIs. 
- teste 
+  teste 2 
